@@ -1,0 +1,66 @@
+body,
+html {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 0;
+    text-align: center;
+}
+
+.App {
+    /* margin-top: 200px; */
+    display: grid;
+    place-content: center;
+}
+
+@media (min-width: 380px) {
+    .App {
+        position: relative;
+        top: 50px;
+    }
+}
+
+.summary-label {
+    display: inline;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303b59;
+    text-align: left;
+    margin-left: 32px;
+}
+
+.summary-container {
+    width: 375px;
+    text-align: start;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.summary-content {
+    padding-top: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (min-width: 380px) {
+    .summary-container {
+        width: 368px;
+    }
+
+    .summary-label {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .summary-content {
+        padding-top: 28px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

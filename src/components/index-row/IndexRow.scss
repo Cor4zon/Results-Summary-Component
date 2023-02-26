@@ -1,0 +1,38 @@
+.index-row-container {
+    // width: 315px;
+    height: 56px;
+    margin-top: 16px;
+    padding: 0 16px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-row-category-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .index-row-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .index-row-category-title {
+        margin-left: 12px;
+    }
+}
+
+.index-row-score {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #303b59;
+
+    span {
+        opacity: 0.5;
+    }
+}

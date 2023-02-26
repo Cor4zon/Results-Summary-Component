@@ -1,0 +1,33 @@
+.button {
+    background: #303b59;
+    border-radius: 128px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+
+    &:hover {
+        background: linear-gradient(
+            180deg,
+            #7755ff 0%,
+            #6943ff 0.01%,
+            #2f2ce9 100%
+        );
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 380px) {
+    .button {
+        margin-top: 41px;
+    }
+}
