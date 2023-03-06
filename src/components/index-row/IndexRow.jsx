@@ -19,7 +19,7 @@ const IndexRow = ({ icon, category, score, color, background }) => {
             </div>
             <p className="index-row-score">
                 {score}
-                <span>{`/100`}</span>
+                <span>{` / 100`}</span>
             </p>
         </div>
     )
