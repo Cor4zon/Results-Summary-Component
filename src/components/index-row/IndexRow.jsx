@@ -9,7 +9,7 @@ const IndexRow = ({ icon, category, score, color, background }) => {
             }}
         >
             <div className="index-row-category-desc">
-                <img className="index-row-icon" src={icon} />
+                <img className="index-row-icon" src={icon} alt={icon} />
                 <p
                     style={{ color: color }}
                     className="index-row-category-title"
